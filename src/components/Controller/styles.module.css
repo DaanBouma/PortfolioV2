@@ -1,0 +1,18 @@
+.Controller {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 10px;
+}
+
+.Controller-button {
+  width: 100px;
+  margin: 10px;
+  height: 100px;
+  border: 4px;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  border: none;
+}

@@ -1,0 +1,125 @@
+.MinimalisticStack {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 24px;
+  flex-direction: column;
+  gap: 27px;
+  width: 800px;
+  padding: 28px;
+  display: flex;
+  box-shadow: 0 .602187px .602187px -1.25px #2f2f6a12, 0 2.28853px 2.28853px -2.5px #2f2f6a10, 0 10px 10px -3.75px #2f2f6a06;
+}
+
+.MinimalisticStack-nav {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.MinimalisticStack-nav h2 {
+  font-optical-sizing: auto;
+  color: #424257;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.MinimalisticStack-body {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0 0 12px 0;
+  margin-top: 15px;
+  gap: 27px;
+}
+
+.MinimalisticStack-body p {
+  color: #8b8ba7;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.MinimalisticStack-nav-button {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #424257;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 165px;
+  font-size: 14px;
+  padding: 8px 12px;
+  transition: all .4s;
+  display: flex;
+  box-shadow: 0 .602187px .602187px -1.25px #2f2f6a12, 0 2.28853px 2.28853px -2.5px #2f2f6a10, 0 10px 10px -3.75px #2f2f6a06;
+  background-color: transparent;
+  border: none;
+}
+
+.MinimalisticStack-nav-button:hover {
+  background-color: #808092;
+  color: white;
+}
+
+.MinimalisticStack-nav-button:hover svg {
+  color: white;
+}
+
+.MinimalisticStack-nav-button svg {
+  color: #424257;
+  width: 16px;
+  font-size: 14px;
+}
+
+.MinimalisticStack-body-item {
+  cursor: default;
+  align-items: center;
+  border-radius: 12px;
+  gap: 10px;
+  width: 220px;
+  height: 61px;
+  display: flex;
+  box-shadow: 0 .602187px .602187px -1.25px #2f2f6a12, 0 2.28853px 2.28853px -2.5px #2f2f6a10, 0 10px 10px -3.75px #2f2f6a06;
+}
+
+.MinimalisticStack-body-item-right {
+  flex-direction: column;
+  gap: 6px;
+  display: flex;
+}
+
+.MinimalisticStack-body-item-left img {
+  width: 38px;
+  aspect-ratio: 1 / 1;
+}
+
+.MinimalisticStack-body-item-right h4 {
+  font-optical-sizing: auto;
+  color: #424257;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.MinimalisticStack-body-item-right p {
+  font-optical-sizing: auto;
+  color: #8b8ba7;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .MinimalisticStack {
+    width: 95vw;
+  }
+}

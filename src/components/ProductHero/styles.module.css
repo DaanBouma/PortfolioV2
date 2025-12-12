@@ -1,0 +1,135 @@
+.ProductHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProductHero-subtitle {
+  color: #707070;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+.ProductHero-subtitle span {
+  color: #1ED760;
+}
+
+
+.ProductHero-title span {
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.ProductHero-title_top {
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  margin: 0;
+}
+
+.ProductHero-title_bot img {
+  border-radius: 100000px;
+  width: 45px;
+
+}
+
+.ProductHero-title_bot p {
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  margin: 0;
+}
+
+.ProductHero-title_bot {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductHero-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ProductHero-description {
+  color: #707070;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  width: 400px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.ProductHero-description span {
+  color: #1ED760;
+}
+
+.ProductHero-button {
+  width: 380px;
+  background-color: #1ED760;
+  border-radius: 100000px;
+  border: none;
+  box-shadow: 0.5 2px 40px rgba(29, 175, 80, 0.5);
+  color: black;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ProductHero-button:hover {
+  background-color: #1eb453;
+}
+
+.ProductHero-title_bot-svg {
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 7px 12px #1eb453;
+  background-image: url('https://cdn.jim-nielsen.com/watchos/512/spotify-discover-new-music-2021-06-14.png?rf=1024');
+  background-position: center;
+  background-size: cover;
+  border-radius: 1000000px;
+}
+
+@media (max-width: 900px) {
+  .ProductHero-title span {
+    font-size: 32px !important;
+  }
+
+  .ProductHero-title_top {
+    font-size: 32px !important;
+
+  }
+
+  .ProductHero-title_bot p {
+    font-size: 32px !important;
+  }
+
+  .ProductHero-title_bot-svg {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .ProductHero-description {
+    font-size: 20px !important;
+    width: 90vw !important;
+  }
+
+  .ProductHero-button {
+    width: 90vw !important;
+  }
+
+}

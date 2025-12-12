@@ -1,0 +1,197 @@
+.Testimonials {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 24px;
+  flex-direction: column;
+  gap: 27px;
+  width: 800px;
+  padding: 28px;
+  display: flex;
+  box-shadow: 0 .602187px .602187px -1.25px #2f2f6a12, 0 2.28853px 2.28853px -2.5px #2f2f6a10, 0 10px 10px -3.75px #2f2f6a06;
+}
+
+@media (max-width: 900px) {
+  .Testimonials{
+    width: 95vw;
+  }
+}
+
+.Testimonials-nav {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.Testimonials-nav h2 {
+  font-optical-sizing: auto;
+  color: #424257;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.Testimonials-body {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0 0 12px 0;
+  margin-top: 15px;
+  gap: 27px;
+  box-shadow: 0 .602187px .602187px -1.25px rgba(47, 47, 106, .07), 0 2.28853px 2.28853px -2.5px rgba(47, 47, 106, .063), 0 10px 10px -3.75px rgba(47, 47, 106, .024);
+}
+
+.Testimonials-nav-button {
+  cursor: pointer;
+  color: #424257;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 165px;
+  font-size: 14px;
+  padding: 8px 12px;
+  transition: all .4s;
+  display: flex;
+  box-shadow: 0 .602187px .602187px -1.25px #2f2f6a12, 0 2.28853px 2.28853px -2.5px #2f2f6a10, 0 10px 10px -3.75px #2f2f6a06;
+  background-color: transparent;
+  border: none;
+}
+
+.Testimonials-nav-button:hover {
+  background-color: #808092;
+  color: white;
+}
+
+.Testimonials-nav-button:hover svg {
+  color: white;
+}
+
+.Testimonials-nav-button svg {
+  color: #424257;
+  width: 16px;
+  font-size: 14px;
+}
+
+.Testimonials-body-item {
+border-radius: 12px;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px 8px;
+    display: flex;
+    box-shadow: 0 .602187px .602187px -1.25px rgba(47, 47, 106, .07), 0 2.28853px 2.28853px -2.5px rgba(47, 47, 106, .063), 0 10px 10px -3.75px rgba(47, 47, 106, .024);
+}
+
+.Testimonials-body-item-right {
+    flex-direction: column;
+    gap: 6px;
+    display: flex
+;
+}
+
+.Testimonials-body-item-left img {
+  width: 38px;
+  aspect-ratio: 1 / 1;
+}
+
+.Testimonials-body-item-right h4{
+    font-optical-sizing: auto;
+    color: #424257;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Testimonials-body-item-right p{
+    font-optical-sizing: auto;
+    color: #8b8ba7;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.Testimonials-body-item-top {
+      display: flex;
+    gap: 24px;
+}
+.Testimonials-body-item-bot {
+     display: flex;
+    gap: 24px;
+}
+
+.Testimonials-body-item-top-left img {
+  border-radius: 100000000px;
+  width: 42px;
+}
+
+.Testimonials-body-item-top-left {
+  width: 44px;
+}
+
+.Testimonials-body-item-top-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+}
+
+.Testimonials-body-item-top-right h2 {
+  font-optical-sizing: auto;
+    color: #424257;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Testimonials-body-item-top-right p {
+      font-optical-sizing: auto;
+    color: #8b8ba7;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.Testimonials-body-item-bot-right-text {
+    color: #8b8ba7;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.8em;
+}
+
+.Testimonials-body-item-bot-left div {
+      opacity: 1;
+    background-color: #8b8ba7;
+    border-radius: 1px;
+    width: 2px;
+    height: 2px;
+}
+
+.Testimonials-body-item-bot-left {
+     width: 44px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.Testimonials-body-item-bot {
+  display: flex;
+}
+
+.Testimonials-body-item-bot-right {
+      color: #8b8ba7;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}

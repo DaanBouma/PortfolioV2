@@ -64,7 +64,7 @@ export async function GET(req: NextRequest) {
 
     Logger("Starting download", "Downloading has been started", `Starting YouTube download: ${searchQuery}`)
 
-    const yt = spawn('/mnt/server/yt-dlp', [
+    const yt = spawn('/home/container/yt-dlp', [
       '--default-search', 'ytsearch',
       '--extract-audio',
       '--audio-format', 'mp3',

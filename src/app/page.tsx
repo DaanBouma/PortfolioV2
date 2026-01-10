@@ -6,9 +6,11 @@ import { Nav, Spotify, Stack, Contact, Project, CardWrapper, Testimonials, Anima
 
 // Styling / Animations
 import styles from './styles.module.css'
-import useLenis from '@/hooks/useLenis'
 import getClassNameFactory from '@/lib/get-class-name-factory'
 const getClassName = getClassNameFactory('Page', styles)
+
+
+import useLenis from '@/hooks/useLenis'
 import { saveRecording } from '@/app/actions/saveRecording'
 
 function PageContent() {

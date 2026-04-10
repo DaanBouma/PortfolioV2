@@ -22,32 +22,32 @@ const myStack = [
   {
     name: 'ReactJS',
     description: 'React, NextJS',
-    image: '/react.png',
+    image: '/0a7c9e4d1b3f6a2c.png',
   },
   {
     name: 'Wordpress',
     description: 'Platform',
-    image: '/wordpress.png',
+    image: '/4c1e8a7d2f9b3c6e.png',
   },
   {
     name: 'Docker',
     description: 'Containers',
-    image: '/docker.png',
+    image: '/6b2d9f1a4c7e3d8f.png',
   },
   {
     name: 'Sass',
     description: 'Styling Language',
-    image: '/sass.png',
+    image: '/3e8a1d6c9b2f4a7d.png',
   },
   {
     name: 'Git',
     description: 'Git, Github, Gitea',
-    image: '/git.png',
+    image: '/8d4c1f7a2e9b6c3d.png',
   },
   {
     name: 'VueJS',
     description: 'Framework',
-    image: '/vue.png',
+    image: '/2f7b4d8c1a6e9d3b.png',
   },
 ]
 

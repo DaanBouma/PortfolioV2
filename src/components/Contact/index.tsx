@@ -10,7 +10,7 @@ export const Contact = () => {
           <h2>Contact</h2>
           <p>Heb je nog vragen? Laat het gerust weten!</p>
         </div>
-        <form className={getClassName('bot')} action="https://formspree.io/f/xjkozzld" method="POST" data-np-autofill-form-type="identity" data-np-checked="1" data-np-watching="1">
+        <form className={getClassName('bot')} action="https://formspree.io/f/xbdpvzbo" method="POST" data-np-autofill-form-type="identity" data-np-checked="1" data-np-watching="1">
           <div className={getClassName('bot-group')}>
             <p className={getClassName('bot-group-label')}>Naam</p>
             <input required type="text" id="name" className={getClassName('bot-group-input')} placeholder="Jouw naam" name="name" data-np-uid="9d7acf73-7428-4599-ab88-5b6c484a04a2" data-np-intersection-state="visible" data-np-autofill-field-type="fullName"></input>

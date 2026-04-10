@@ -10,15 +10,15 @@ const myProject = [
   {
     name: 'FC-Groningen',
     description:
-      'Dit was het project waarbij ik veel heb geleerd over wordpress. Hierbij heb ik een website nagemaakt in wordpress. Het bedrijf waarbij ik dit deed heeft ook alle websites gemaakt van FC-Groningen en zo heb ik de interne structuur geleerd van deze website.',
-    image: '/fcgroningen.png',
+      'Ik heb veel gewerkt voor bedrijven zoals FC Groningen, waarbij ik heb meegewerkt aan de webshop en de website.',
+    image: '/5a1d8e3c7b2f9d4a.png',
     subtitle: 'Wordpress Website',
   },
   {
     name: 'Promotiedagen',
     description:
       'In dit project heb ik mijn kennis van React gecombineerd met WordPress. Ik heb daarbij verschillende grote bugs opgelost, waaronder problemen met het betalen van “stands” en de berekening van de totale prijs.',
-    image: '/promotiedagen2.png',
+    image: '/9c3f1a7d4e8b2c6f.png',
     subtitle: 'Wordpress Website',
   },
 ]

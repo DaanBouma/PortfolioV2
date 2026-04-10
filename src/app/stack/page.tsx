@@ -13,37 +13,37 @@ const myProject = [
   {
     name: 'ReactJS / NextJS',
     description: 'React is het hoofdframework waarmee ik webapplicaties ontwikkel. Het biedt veel mogelijkheden. Door diverse applicaties te bouwen heb ik uitgebreide kennis opgedaan over beveiliging en het opzetten van websites.',
-    image: '/react.png',
+    image: '/0a7c9e4d1b3f6a2c.png',
     subtitle: 'Frontend Framework'
   },
   {
     name: 'WordPress',
     description: 'Mijn mening over WordPress is volledig veranderd sinds ik ermee werk. Het biedt klanten eenvoudige methoden om hun website aan te passen. Ondanks verbeterpunten is het een sterke optie voor webdevelopment.',
-    image: '/wordpress.png',
+    image: '/4c1e8a7d2f9b3c6e.png',
     subtitle: 'CMS Platform'
   },
   {
     name: 'Docker',
     description: 'Hoewel ik Docker niet prettig vind om mee te werken, is het wel handig. Het verdeelt het werk in containers, waardoor websites overzichtelijk en gescheiden blijven.',
-    image: '/docker.png',
+    image: '/6b2d9f1a4c7e3d8f.png',
     subtitle: 'Containerization'
   },
   {
     name: 'Sass',
     description: 'Sass maakt het eenvoudiger om websites te stijlen. Met de juiste kennis biedt het veel flexibiliteit en mogelijkheden.',
-    image: '/sass.png',
+    image: '/3e8a1d6c9b2f4a7d.png',
     subtitle: 'Styling Language'
   },
   {
     name: 'Git / GitHub / Gitea',
     description: 'Git is een essentiële tool om werk veilig op te slaan en te beheren. Ik heb mij gericht op Git, Gitea en GitHub.',
-    image: '/git.png',
+    image: '/8d4c1f7a2e9b6c3d.png',
     subtitle: 'Version Control'
   },
   {
     name: 'VueJS',
     description: 'Hoewel ik nog niet extreem veel ervaring heb met Vue, vind ik het een prettige oplossing voor webproblemen. Mijn kennis is voldoende om goed wegwijs te zijn binnen het framework.',
-    image: '/vue.png',
+    image: '/2f7b4d8c1a6e9d3b.png',
     subtitle: 'Frontend Framework'
   },
 ]

@@ -23,12 +23,12 @@ const Nav = forwardRef<React.ComponentRef<typeof CardWrapper>, NavProps>(
       <CardWrapper ref={ref} data={data}>
         <div className={getClassName()}>
           <div className={getClassName('left')}>
-            <div style={{ backgroundImage: 'url(/profile.jpg)' }} />
+            <div style={{ backgroundImage: 'url(/91d4e7b2c6a1f8d3.jpg)' }} />
           </div>
           <div className={getClassName('right')}>
             <div className={getClassName('label')}>
               <div />
-              Beschikbaar om te praten
+             Werkzaam bij wpcompany
             </div>
             <h1 className={getClassName('title')}>Daan Bouma</h1>
             <p className={getClassName('description')}>

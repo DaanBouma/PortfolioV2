@@ -9,14 +9,14 @@ const myTestimonials = [
     name: 'Julian Hessels',
     description:
       'Daan kan supergoed zelfstandig werken. Je legt een opdracht bij hem neer, geeft ’m een warme chocolademelk, en voor je het weet heeft hij het al gebouwd. Hij denkt gelijk mee over verschillende schermformaten en zorgt dat het er altijd strak en gelikt uitziet. Wat mij betreft echt een ideale collega',
-    image: '/julian.png',
+    image: '/2c9d4a7e1b6f3d8a.png',
     subtitle: 'Front-end developer',
   },
   {
     name: 'Jasper Mulder',
     description:
       'Daan is een gedreven ontwikkelaar met een hands-on mentaliteit. Hij pakt problemen praktisch aan en weet altijd passende oplossingen te vinden voor complexe uitdagingen. Daan is geen ja-knikker: hij denkt pro-actief mee, stelt sterke vragen en draagt waardevolle ideeën aan om het resultaat naar een hoger niveau te tillen. Het was een plezier om met hem samen te werken!',
-    image: '/jasper.png',
+    image: '/8a3e1d6f4c9b2d7e.png',
     subtitle: 'Eigenaar & developer',
   },
 ]

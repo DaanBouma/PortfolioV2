@@ -29,6 +29,7 @@
 .ExpandedNav-left div {
   background-position: 50%;
   background-repeat: no-repeat;
+  background-position-y: 0;
   background-size: cover;
   border-radius: 12px;
   width: 212px;

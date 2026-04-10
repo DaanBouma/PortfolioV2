@@ -14,36 +14,36 @@ const myProject = [
     name: 'FC-Groningen',
     subtitle: 'Wordpress Website',
     description:
-      'Dit was het project waarbij ik veel heb geleerd over WordPress. Hierbij heb ik een website nagemaakt in WordPress. Het bedrijf waarbij ik dit deed heeft ook alle websites gemaakt van FC-Groningen en zo heb ik de interne structuur geleerd van deze website.',
-    image: '/fcgroningen.png',
+      'Ik heb veel gewerkt voor bedrijven zoals FC Groningen, waarbij ik heb meegewerkt aan de webshop en de website.',
+    image: '/5a1d8e3c7b2f9d4a.png',
   },
   {
     name: 'Promotiedagen',
     subtitle: 'Wordpress Website',
     description:
       'In dit project heb ik mijn kennis van React gecombineerd met WordPress. Ik heb daarbij verschillende grote bugs opgelost, waaronder problemen met het betalen van “stands” en de berekening van de totale prijs.',
-    image: '/promotiedagen2.png',
+    image: '/9c3f1a7d4e8b2c6f.png',
   },
   {
     name: 'NZG Nationale ZorgGids',
     subtitle: 'Wordpress Website',
     description:
       'In dit project heb ik een nieuwe functionaliteit ontwikkeld voor de redactie. Hiermee kunnen zij links in hun blog plaatsen met een vervaldatum. Na deze datum is het linkje automatisch niet meer bruikbaar.',
-    image: '/zorggids.png',
+    image: '/1e6b9d3a7c2f4d8e.png',
   },
   {
     name: 'Media Focus Point',
     subtitle: 'Wordpress Plugin',
     description:
       'Ik heb een bestaande WordPress-plugin uitgebreid, zodat er niet alleen betere focus points op foto’s gezet kunnen worden, maar nu ook op video’s. Daarnaast heb ik verschillende bugs opgelost.',
-    image: '/mediafocuspoint2.png',
+    image: '/4f8c2d7a1e6b9c3d.png',
   },
   {
     name: 'RecruiteeConnect',
     subtitle: 'Wordpress Plugin',
     description:
       'Ik heb een WordPress-plugin ontwikkeld die een connectie legt tussen Recruitee en WordPress. Hierdoor kunnen bezoekers direct via de website solliciteren, en worden de sollicitaties automatisch naar Recruitee gestuurd.',
-    image: '/recruiteeConnect.png',
+    image: '/7b1e4d9c3a6f2d8e.png',
   },
 ]
 

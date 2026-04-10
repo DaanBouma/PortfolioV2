@@ -28,3 +28,5 @@ docker run -p 3000:3000 \
 Dokploy:
 
 Use the repo's `Dockerfile` as the build source and set `SITE_ACCESS_SLUG` and `SITE_ACCESS_SECRET` as runtime environment variables in Dokploy. Do not bake secrets into the image.
+
+If Dokploy still uses Nixpacks instead of the repo Dockerfile, this repo also includes `nixpacks.toml` pinned to Node 22 and npm.

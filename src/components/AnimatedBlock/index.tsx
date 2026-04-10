@@ -3,7 +3,7 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const AnimatedBlock = ({
   children,
@@ -13,6 +13,14 @@ const AnimatedBlock = ({
   once = true
 }) => {
   const ref = useRef(null);
+  const [disableAnimation, setDisableAnimation] = useState(false);
+
+  useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches;
+    setDisableAnimation(prefersReducedMotion || isTouchDevice);
+  }, []);
+
   const isInView = useInView(ref, {
     once: once,
     threshold: 0.1,
@@ -42,8 +50,8 @@ const AnimatedBlock = ({
   return (
     <motion.div
       ref={ref}
-      initial="hidden"
-      animate={isInView ? "visible" : "hidden"}
+      initial={disableAnimation ? false : "hidden"}
+      animate={disableAnimation || isInView ? "visible" : "hidden"}
       variants={variants}
       className={className}
     >

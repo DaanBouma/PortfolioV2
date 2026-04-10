@@ -1,18 +1,13 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-
-type GateState = 'checking' | 'blocked'
+import { useEffect } from 'react'
 
 export default function AccessGate() {
-  const [state, setState] = useState<GateState>('checking')
-
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
     const slug = params.get('h')
 
     if (!slug) {
-      setState('blocked')
       return
     }
 
@@ -32,9 +27,7 @@ export default function AccessGate() {
         window.history.replaceState({}, '', nextUrl)
         window.location.reload()
       })
-      .catch(() => {
-        setState('blocked')
-      })
+      .catch(() => {})
   }, [])
 
   return (
@@ -42,17 +35,56 @@ export default function AccessGate() {
       style={{
         margin: 0,
         minHeight: '100vh',
-        display: 'grid',
-        placeItems: 'center',
-        background: '#0c0c10',
-        color: '#f5f5f5',
-        fontFamily: 'sans-serif',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        background: 'linear-gradient(180deg, #ffffff 0%, #f7f8fc 100%)',
+        color: '#4a4d63',
+        fontFamily: 'Arial, Helvetica, sans-serif',
+        padding: '32px 20px',
+        boxSizing: 'border-box',
       }}
     >
-      <div style={{ textAlign: 'center', padding: '24px' }}>
-        <h1 style={{ margin: 0, fontSize: '24px' }}>403</h1>
-        <p style={{ marginTop: '12px', opacity: 0.72 }}>
-          {state === 'checking' ? 'Checking access...' : 'Access denied'}
+      <div
+        style={{
+          width: '100%',
+          maxWidth: '760px',
+          textAlign: 'center',
+        }}
+      >
+        <p
+          style={{
+            margin: 0,
+            fontSize: '92px',
+            lineHeight: 1,
+            fontWeight: 500,
+            letterSpacing: '-0.04em',
+            color: '#55576d',
+          }}
+        >
+          403
+        </p>
+        <h1
+          style={{
+            margin: '18px 0 8px',
+            fontSize: 'clamp(28px, 4vw, 46px)',
+            fontWeight: 500,
+            letterSpacing: '-0.03em',
+            color: '#55576d',
+          }}
+        >
+          Access Denied / Forbidden
+        </h1>
+        <p
+          style={{
+            margin: '0 auto',
+            maxWidth: '460px',
+            fontSize: '18px',
+            lineHeight: 1.5,
+            color: '#8c90a6',
+          }}
+        >
+          This page exists, but it is only available with a valid access session.
         </p>
       </div>
     </div>

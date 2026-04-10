@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
   const accessSecret = process.env[ACCESS_SECRET_ENV_NAME]
   const queryValue = request.nextUrl.searchParams.get(ACCESS_QUERY_PARAM)
 
-  if (!hasValidAccessConfig(accessSlug, accessSecret) || queryValue !== accessSlug) {
+  if (!accessSlug || !accessSecret || !hasValidAccessConfig(accessSlug, accessSecret) || queryValue !== accessSlug) {
     return new NextResponse('Forbidden', { status: 403 })
   }
 

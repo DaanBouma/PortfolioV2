@@ -4,6 +4,14 @@ import Lenis from "@studio-freight/lenis";
 
 export default function useLenis() {
   useEffect(() => {
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
+
+    // Native scrolling is more reliable on touch devices.
+    if (prefersReducedMotion || isTouchDevice) {
+      return;
+    }
+
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
